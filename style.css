@@ -1,0 +1,246 @@
+.textFormSU{
+	color:rgb(132,131,132);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	margin-top:30px;
+	margin-left:50px;
+	font-size:24px;
+}
+.textFormSUSpan{
+	font-weight:bold;
+	color:rgb(52,52,52);
+}
+.signUpForm{
+	width:960px;
+	background:white;
+	height:200px;
+	border-radius:5px;
+	overflow:hidden;
+}
+.topYellowForForm{
+	background:rgb(255,204,82);
+	width:100%;
+	height:5px;
+}
+.inputForForms{
+	width:210px;
+	height: 34px;
+	padding: 5px 12px;
+	font-size: 12px;
+	color: #555555;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	margin:35px 0 0 5px;
+}
+.inputForForms:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.firstInputForForms{
+	margin-left:50px;
+}
+.buttonSubmitForm{
+	height:46px;
+	width:100px;
+	background:rgb(211,99,89);
+	color:white;
+	font-size:18px;
+	font-weight:800;
+	border:none;
+	border-radius:5px;
+	position:absolute;
+	margin:35px 0 0 20px;
+	cursor:pointer;
+	transition: all 0.3s;
+}
+.buttonSubmitForm:hover{
+	opacity:.9;
+	transition: all 0.5s;
+}
+.insideButtonSubmitForm{
+	width: 100px;
+	height: 5px;
+	border-bottom-left-radius: 5px;
+	background: rgb(194,91,82);
+	border-bottom-right-radius: 5px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+.loginUForm{
+	width:417px;
+	background:white;
+	border-radius:5px;
+	overflow:hidden;
+	text-align:center;
+	border: 1px solid gainsboro;
+}
+.topYellowForFormLogin{
+	background:rgb(255,204,82);
+	width:100%;
+	height:5px;
+}
+.inputForFormsLogin{
+	width:350px!important;
+	height: 34px;
+	padding: 5px 12px;
+	font-size: 14px;
+	color: #555555;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	display:block;
+	margin:auto;
+	margin-top:10px;
+}
+.inputForFormsLogin:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.buttonSubmitFormLogin{
+	height:50px;
+	width:250px;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:40px;
+	background:rgb(211,99,89);
+	color:white;
+	font-size:14px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	transition: all 0.3s;
+	display:block;
+}
+.buttonSubmitFormLogin:hover{
+	opacity:.9;
+	transition: all 0.5s;
+}
+.insideButtonSubmitFormLogin{
+	width: 250px;
+	height: 5px;
+	border-bottom-left-radius: 5px;
+	background: rgb(194,91,82);
+	border-bottom-right-radius: 5px;
+	margin-left: -6px;
+	position:absolute;
+	margin-top: 13px;
+}
+.signUpLoginText{
+	font-size:24px;
+	color:rgb(102,101,102);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	margin-top:40px;
+}
+.insideSignUpLoginText{
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+	color:rgb(65,64,66);
+	font-weight:bold;
+}
+.signUpLoginTextRed{
+	font-family: 'Open Sans', sans-serif;
+	color:rgb(211,99,89);
+	margin-bottom:35px;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.imgLF{
+	position: absolute;
+	margin-top: -76px;
+	margin-left: 171px;
+}
+#formError{
+	text-align:center;
+	color:red;
+	margin-top:20px;
+	position:absolute;
+	width:417px;
+	display:none;
+}
+#vooplayer_wrapper
+{
+margin-top:30px;
+width:auto;
+}
+.vooicon
+{
+background-image: url("images/large_icon.jpg");
+background-repeat: no-repeat;
+height:32px;
+width:25px;
+float:left;
+margin-right:5px;
+}
+#vooplayer_wrapper .postbox
+{
+width:98%;
+}
+.col
+{
+float:left;
+margin-right:10px;
+}
+.coltitle
+{
+font-size: 24px;
+color: rgb(102,101,102);
+font-family: 'Open Sans', sans-serif;
+font-weight: lighter;
+margin-top: 50px;
+}
+.vooplayer_header
+{
+background: url(images/black-pattern.jpg) repeat-x 0 0;
+width:98%;
+}
+.vooplayer_logo
+{
+  padding:20px;
+  background: #2b2b2b;
+  margin-top:20px !imporant;
+}
+.msg
+{
+color:#ff0000;
+}
+#vooplayer_wrapper input[type="text"], #vooplayer_wrapper input[type="password"]
+{
+width: 200px;
+line-height: 2em;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 3px 3px 3px 3px;
+}
+#vooplayer_wrapper td
+{
+padding:5px;
+}
+#vooplayer_wrapper .inside
+{
+padding-left:40px;
+}
+#vooplayer_wrapper h4
+{
+padding-left:10px;
+}
